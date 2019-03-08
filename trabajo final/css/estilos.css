@@ -1,0 +1,65 @@
+body
+{
+  background-color: black !important;
+}
+
+.row
+{
+  margin-top:0px;
+  background-color:pink ;
+}
+
+.logo-img
+{
+  max-height: 150px ;
+  width: auto ;
+}
+
+.img-social
+{
+  width: 40px;
+}
+
+.red-social
+{
+  margin-top: 160px;
+  text-align: center;
+}
+
+.enlaces
+{
+  margin-top: 20px;
+  display: flex;
+  border-radius: 0px !important;
+}
+
+.btn
+{
+  flex: 1;
+  border-radius: 0px !important;
+}
+
+@media screen and (max-width:990px)
+{
+  .red-social
+  {
+    margin-top: 0px;
+  }
+
+  .img-social
+  {
+    width: 30px;
+  }
+
+  .logo-img
+  {
+    max-height: 120px ;
+  }
+
+  .enlaces
+  {
+   flex-direction: column;
+   margin-top: 0px;
+  }
+
+}
