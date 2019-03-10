@@ -3,10 +3,10 @@ body
   background-color: black !important;
 }
 
-.row
+.encabezado, .navegacion
 {
   margin-top:0px;
-  background-color:pink ;
+  background-color:rgb(150,80,150) ;
 }
 
 .logo-img
@@ -39,6 +39,45 @@ body
   border-radius: 0px !important;
 }
 
+main > div
+{
+ margin-top: 20px ;
+ background-color: white;
+
+}
+
+p
+{
+  text-align: justify;
+}
+
+h3
+{
+  font-weight:bold !important;
+}
+
+img[src*="jpg"], .comentarios
+{
+  width:100%;
+  margin-top: 20px;
+}
+
+.glyphicon-user
+{
+  font-size: 50px;
+}
+
+.caja_comentarios
+{
+  width: 100%;
+}
+
+form
+{
+  margin-top: 20px;
+}
+
+
 @media screen and (max-width:990px)
 {
   .red-social
@@ -60,6 +99,11 @@ body
   {
    flex-direction: column;
    margin-top: 0px;
+  }
+
+  main > div
+  {
+   margin: 0px ;
   }
 
 }
