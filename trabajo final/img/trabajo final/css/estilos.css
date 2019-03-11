@@ -1,0 +1,116 @@
+body
+{
+  background-color: black !important;
+}
+
+.encabezado, .navegacion
+{
+  margin-top:0px;
+  background-color:rgb(150,80,150) ;
+}
+
+.logo-img
+{
+  max-height: 150px ;
+  width: auto ;
+}
+
+.img-social
+{
+  -webkit-width: 40px;
+  width: 40px;
+}
+
+.red-social
+{
+  margin-top: 160px;
+  text-align: center;
+  -webkit-margin-top: 160px;
+  -webkit-text-align: center;
+}
+
+.enlaces
+{
+  margin-top: 20px;
+  display: flex;
+  border-radius: 0px !important;
+}
+
+.btn
+{
+  flex: 1;
+  border-radius: 0px !important;
+}
+
+main > div
+{
+ margin-top: 20px ;
+ background-color: white;
+
+}
+
+p
+{
+  text-align: justify;
+}
+
+h3
+{
+  font-weight:bold !important;
+}
+
+img[src*="jpg"], .comentarios
+{
+  width:100%;
+  margin-top: 20px;
+  -webkit-width:100%;
+  -webkit-margin-top: 20px;
+}
+
+.glyphicon-user
+{
+  font-size: 50px;
+}
+
+.caja_comentarios
+{
+  width: 100%;
+}
+
+form
+{
+  margin-top: 20px;
+}
+
+
+@media screen and (max-width:990px)
+{
+  .red-social
+  {
+    margin-top: 0px;
+    -webkit-margin-top: 0px;
+  }
+
+  .img-social
+  {
+    width: 30px;
+    -webkit-width: 30px;
+  }
+
+  .logo-img
+  {
+    max-height: 120px ;
+  }
+
+  .enlaces
+  {
+   flex-direction: column;
+   margin-top: 0px;
+  }
+
+  main > div
+  {
+   margin: 0px ;
+  }
+
+}
